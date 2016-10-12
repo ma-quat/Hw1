@@ -5,7 +5,7 @@ Program calculates The BMI Formula with metric formula
 Takes two parameters:
 1. weight array 
 2. height array
-3. is metric : o.w imperial method
+3. is metric : 1 o.w imperial method: 0
 
 
 
@@ -16,9 +16,8 @@ Takes two parameters:
 ##Evaluation
 
 | BMI	Weight Range  |  Status       |
-| :---                | :---          |
+| :---:               | :---:         |
 | (0,18]              | Underweight   |
 | (18,25)             | Normal        |
 | [25,30)             | Overweight    |
 | [30,700)            | Obese         |
-| :---                | :---          |
