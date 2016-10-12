@@ -6,7 +6,7 @@ Takes two parameters
 
 1. weight array
 2. height array
-3. is metric parameter - metric is 1, imperial method is 0  
+3. is metric - metric is 1, imperial method is 0  
 
 
 
@@ -22,3 +22,6 @@ Takes two parameters
 | (18,25)             | Normal        |
 | [25,30)             | Overweight    |
 | [30,)               | Obese         |
+
+##Travis-ci
+[![Build Status](https://travis-ci.org/ma-quat/Hw1.svg?branch=master)](https://travis-ci.org/ma-quat/Hw1)
