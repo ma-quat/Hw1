@@ -1,4 +1,4 @@
-# **BIL 588** - HW 1 Mirun Akyuz
+# **_BIL 588_** - HW 1 Mirun Akyuz
 
 Program calculates The BMI Formula with metric formula
 
@@ -13,7 +13,7 @@ Takes two parameters:
 * metric method: bmi = weight in kilograms /(height in meters * height in meters) 
 * imperial (US) method: bmi = weight in pounds * 703  /(height in inches * height in inches)
 
-##Results
+##Evaluation
 
 | BMI	Weight Range  |  Status       |
 | :---                | :---          |
