@@ -7,6 +7,11 @@ Takes two parameters:
 2. height array
 3. is metric : 1 o.w imperial method: 0
 
+1. Item 1
+2. Item 2
+3. Item 3
+* Item 3a
+* Item 3b
 
 
 ##How to calculate BMI:
