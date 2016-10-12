@@ -2,16 +2,12 @@
 
 Program calculates The BMI Formula with metric formula
 
-Takes two parameters:
-1. weight array 
-2. height array
-3. is metric : 1 o.w imperial method: 0
+Takes two parameters
 
-1. Item 1
-2. Item 2
-3. Item 3
-* Item 3a
-* Item 3b
+1. weight array
+2. height array
+3. is metric parameter - metric is 1, imperial method is 0  
+
 
 
 ##How to calculate BMI:
