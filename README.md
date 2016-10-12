@@ -21,4 +21,4 @@ Takes two parameters
 | (0,18]              | Underweight   |
 | (18,25)             | Normal        |
 | [25,30)             | Overweight    |
-| [30,700)            | Obese         |
+| [30,)               | Obese         |
