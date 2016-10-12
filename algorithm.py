@@ -9,12 +9,12 @@ def bmi(weight_array, height_array,is_metric):
 
         if(is_metric):
             #check measurements for weight
-            if(weight_array[i] <= 0 or weight_array[i] >= 700):
+            if(weight_array[i] <= 0 or weight_array[i] >= 600):
                 bmi.append("incorrect weight")
                 continue
 
             #check measurements for height
-            if(height_array[i] <= 0 or height_array[i] >= 350):
+            if(height_array[i] <= 0 or height_array[i] >= 400):
                 bmi.append("incorrect height")
                 continue
 
@@ -23,12 +23,12 @@ def bmi(weight_array, height_array,is_metric):
 
         else:
             #check measurements for weight
-            if(weight_array[i] <= 0 or weight_array[i] >= 700):
+            if(weight_array[i] <= 0 or weight_array[i] >= 1200):
                 bmi.append("incorrect weight")
                 continue
 
             #check measurements for height
-            if(height_array[i] <= 0 or height_array[i] >= 350):
+            if(height_array[i] <= 0 or height_array[i] >= 150):
                 bmi.append("incorrect height")
                 continue
 
