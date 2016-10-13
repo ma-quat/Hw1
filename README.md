@@ -28,3 +28,7 @@ Takes two parameters
 
 ##Demo Site (HEROKU)
 https://arcane-oasis-94216.herokuapp.com/bmi_calculator
+
+[![Code Climate](https://codeclimate.com/github/ma-quat/Hw1/badges/gpa.svg)](https://codeclimate.com/github/ma-quat/Hw1)
+
+[![Issue Count](https://codeclimate.com/github/ma-quat/Hw1/badges/issue_count.svg)](https://codeclimate.com/github/ma-quat/Hw1)
