@@ -24,7 +24,7 @@ Takes two parameters
 | [30,)               | Obese         |
 
 ##Output:
-* Result array: calculates bmi for each  weight[i] and height[i]
+* Result array: calculates bmi for weight[i] and height[i]
 
 
 ##Travis-ci
