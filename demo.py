@@ -26,8 +26,8 @@ def compute():
 	height_array = request.form['height_array']
 	app.logger.debug(height_array)
 
-	print 'weight_array: ' + weight_array
-	print 'height_array: ' + height_array
+	print ('weight_array: ' + weight_array)
+	print ('height_array: ' + height_array)
 
 	is_metric = request.form['is_metric']
 	app.logger.debug(is_metric)
@@ -35,16 +35,16 @@ def compute():
 
 	yamlWeight = yaml.safe_load(weight_array)
 	app.logger.debug(yamlWeight)
-	print 'yamlWeight: ' + str(yamlWeight)
-	print yamlWeight
+	print ('yamlWeight: ' + str(yamlWeight))
+	print (yamlWeight)
 
 	yamlHeight = yaml.safe_load(height_array)
 	app.logger.debug(yamlHeight)
-	print 'yamlHeight: ' + str(yamlHeight)
-	print yamlHeight
+	print ('yamlHeight: ' + str(yamlHeight))
+	print (yamlHeight)
         
 	result = bmi(yamlWeight, yamlHeight,is_metric)
-	print result
+	print (result)
 	
-	printed_result = "weight_array: " + str(yamlWeight) + " height_array: " + str(yamlHeight) + " method: " + str(is_metric) + " result: "+ str(result)
+	printed_result = ("weight_array: " + str(yamlWeight) + " height_array: " + str(yamlHeight) + " method: " + str(is_metric) + " result: "+ str(result))
 	return render_template('bmi_calculator.html', result=printed_result)
