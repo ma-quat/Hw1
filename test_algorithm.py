@@ -15,6 +15,7 @@ class TestSearch(unittest.TestCase):
         self.incorrectHeightResult = ["incorrect height","incorrect height","incorrect height","normal"]
         
         self.emptyArray = []
+        self.arrayProblem = ["problem with array"]
 
         #parameters for imperial (US) method
         self.weightPound = [150]
@@ -35,11 +36,16 @@ class TestSearch(unittest.TestCase):
 
     #check what happens if the weight array is empty
     def test_emptyWeightArray(self):
-        self.assertEqual(bmi(self.emptyArray,self.height,self.isMetric),self.emptyArray)
+        self.assertEqual(bmi(self.emptyArray,self.height,self.isMetric),self.arrayProblem)
+
+	#check what happens if both arrays are empty
+    def test_emptyArray(self):
+        self.assertEqual(bmi(self.emptyArray,self.emptyArray,self.isMetric),self.arrayProblem)
+
 
     #check what happens with different array length
     def test_notEqualArraySize(self):
-        self.assertEqual(bmi(self.weightUnequalLength,self.height,self.isMetric),self.emptyArray)
+        self.assertEqual(bmi(self.weightUnequalLength,self.height,self.isMetric),self.arrayProblem)
 
     #check with incorrect weight measurements
     def test_incorrectWeightMeasurement(self):

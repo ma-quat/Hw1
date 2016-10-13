@@ -1,9 +1,10 @@
 def bmi(weight_array, height_array,is_metric):
     bmi = []
 
+
     #Comparing arrays' length
-    if(len(weight_array) != len(height_array)):
-        return bmi;
+    if(weight_array is None or height_array is None or (len(weight_array) != len(height_array)) or  len(height_array) == 0 or len(weight_array) == 0) :
+        return ["problem with array"];
 
     for i in range(len(weight_array)):
 

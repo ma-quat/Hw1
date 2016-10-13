@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+<style>
+table {
+    width: 70%;
+    border: 1px solid black;;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;;
+}
+
+tr:nth-child(odd){background-color: #f2f2f2}
+
+</style>
+</head>
+<title>BMI Calculator</title>
+  
+  
+  <center>
+  <h1>Calculate BMI</h1>
+
+<hr>
+    
+    
+
+{{result}}	
+<br>	<br>	
+<form action="bmi_calculator" method="post">
+
+
+<table>
+
+<tr>
+	<th>weight array:<br> <small>Enter an array of elements using yaml format in the first form</small></th>
+	<th> <textarea name="weight_array" rows="10" cols="30"></textarea></th>
+</tr><tr>
+	<th>height array:<br> <small>Enter an array of elements using yaml format in the first form</small></th>
+	<th><textarea name="height_array" rows="10" cols="30"></textarea></th>
+</tr><tr>
+	<th>metric/imperial method for calculation:</th>
+	<th>        
+		<select name="is_metric">
+	    		<option value="1">metric method</option>
+			    <option value="0">imperial method</option>    		
+		</select>
+	</th>
+</tr><tr>
+	<th>&nbsp;</th>
+	<th><input type="submit"></th>
+</tr>
+</table>
+</center>
+</form>
+  
+
