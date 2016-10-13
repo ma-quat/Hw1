@@ -8,8 +8,11 @@ def bmi(weight_array, height_array,is_metric):
 
     for i in range(len(weight_array)):
 
-        if((is_metric and (weight_array[i] <= 0 or weight_array[i] >= 600 or height_array[i] <= 0 or height_array[i] >= 400)) or
-        ((is_metric == 0 ) and (weight_array[i] <= 0 or weight_array[i] >= 1200 or height_array[i] <= 0 or height_array[i] >= 150)) ):
+        if(weight_array[i] <= 0 or height_array[i] <= 0 ):
+                bmi.append("incorrect cell value")
+                continue
+        elif((is_metric and ( weight_array[i] >= 600 or height_array[i] >= 400)) or
+        ((is_metric == 0 ) and ( weight_array[i] >= 1200 or height_array[i] >= 150)) ):
                 bmi.append("incorrect cell value")
                 continue
 	    #calculates each value's bmi                
