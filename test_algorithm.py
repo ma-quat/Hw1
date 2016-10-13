@@ -11,8 +11,8 @@ class TestSearch(unittest.TestCase):
         self.incorrectHeight = [0,16000,-100,176]
 
         self.solution = ["normal","underweight","obese","normal"]
-        self.incorrectWeightResult = ["underweight","incorrect weight","incorrect weight","incorrect weight"]
-        self.incorrectHeightResult = ["incorrect height","incorrect height","incorrect height","normal"]
+        self.incorrectWeightResult = ["underweight","incorrect cell value","incorrect cell value","incorrect cell value"]
+        self.incorrectHeightResult = ["incorrect cell value","incorrect cell value","incorrect cell value","normal"]
         
         self.emptyArray = []
         self.arrayProblem = ["problem with array"]
