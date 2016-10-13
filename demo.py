@@ -31,7 +31,7 @@ def compute():
 
 	is_metric = request.form['is_metric']
 	app.logger.debug(is_metric)
-	print 'is_metric: ' + is_metric
+	print ('is_metric: ' + is_metric)
 
 	yamlWeight = yaml.safe_load(weight_array)
 	app.logger.debug(yamlWeight)
