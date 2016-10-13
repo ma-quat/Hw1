@@ -23,6 +23,10 @@ Takes two parameters
 | [25,30)             | Overweight    |
 | [30,)               | Obese         |
 
+##Output:
+* Result array: calculates bmi for each  weight[i] and height[i]
+
+
 ##Travis-ci
 [![Build Status](https://travis-ci.org/ma-quat/Hw1.svg?branch=master)](https://travis-ci.org/ma-quat/Hw1)
 
