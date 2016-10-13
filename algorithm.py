@@ -11,7 +11,7 @@ def bmi(weight_array, height_array,is_metric):
         if(weight_array[i] <= 0 or height_array[i] <= 0 ):
                 bmi_result.append("incorrect cell value")
                 continue
-        elif((is_metric and ( weight_array[i] >= 600 or height_array[i] >= 400)) or
+        if((is_metric and ( weight_array[i] >= 600 or height_array[i] >= 400)) or
         ((is_metric == 0 ) and ( weight_array[i] >= 1200 or height_array[i] >= 150)) ):
                 bmi_result.append("incorrect cell value")
                 continue
